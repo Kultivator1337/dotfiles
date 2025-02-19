@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<interface>
+  <object class="GtkMenu" id="menu">
+    <child>
+		<object class="GtkMenuItem" id="hdmi">
+			<property name="label">HDMI</property>
+        </object>
+	</child>
+	<child>
+        <object class="GtkMenuItem" id="analog">
+			<property name="label">Analog</property>
+        </object>
+	</child>
+    <child>
+        <object class="GtkMenuItem" id="settings">
+			<property name="label">Settings</property>
+        </object>
+    </child>
+  </object>
+</interface>
